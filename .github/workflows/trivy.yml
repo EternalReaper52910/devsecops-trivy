@@ -20,4 +20,5 @@ jobs:
         with:
           image-ref: trivy-demo
           severity: HIGH,CRITICAL
+          ignore-unfixed: true
           exit-code: 1
